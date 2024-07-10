@@ -1,11 +1,11 @@
 import React from 'react'
 
-const IndexPage = () => {
+const AreaPage = () => {
   return (
     <div>
-      inicio
+      area
     </div>
   )
 }
 
-export default IndexPage
+export default AreaPage

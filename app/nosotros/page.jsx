@@ -2,9 +2,9 @@ import React from 'react'
 
 const UsPage = () => {
   return (
-    <div>
-      Nosotros
-    </div>
+    <section className='bg-gray-100'>
+      Nosotros asd
+    </section>
   )
 }
 

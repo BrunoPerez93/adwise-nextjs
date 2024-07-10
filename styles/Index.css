@@ -1,0 +1,23 @@
+﻿.img-back {
+  background-size: cover;
+  height: 600px;
+  max-height: 700px;
+  background-image: url("../public/assets/Images/IndexFondo.jpg");
+  background-attachment: fixed;
+}
+.img-back h1 {
+  font-size: 56px;
+  font-weight: 500;
+}
+.img-back p {
+  max-width: 750px;
+  letter-spacing: 1px;
+}
+
+.button-adwise {
+  background-color: #1d3562;
+  padding: 10px 21px;
+  border: none;
+  letter-spacing: 1px;
+  color: #ffffff;
+}

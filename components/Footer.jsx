@@ -5,13 +5,14 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div class="fixed-icon wsp-icon ">
+      <div className="fixed-icon wsp-icon">
         <Link href="https://wa.me/50763062254" target="_blank">
           <Image
             src="/assets/Images/whatsapp.png"
             width={60}
             height={60}
             target="_blank"
+            alt="logo whatsapp"
           />
         </Link>
       </div>

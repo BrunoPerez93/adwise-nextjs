@@ -1,6 +1,7 @@
 import ImageSlider from "@/components/perfil/ImageSlider";
 import "../../styles/perfiles.css";
 import ListValues from "@/components/perfil/ListValues";
+import PartnersSlider from "@/components/perfil/PartnersSlider";
 
 const ProfilePage = () => {
   return (
@@ -24,6 +25,8 @@ const ProfilePage = () => {
         <ListValues />
 
         <ImageSlider />
+
+        <PartnersSlider />
       </section>
     </>
   );

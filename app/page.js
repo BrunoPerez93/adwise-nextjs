@@ -20,7 +20,7 @@ export default function Home() {
   };
 
   return (
-    <section className=" bg-gray-100">
+    <section className=" bg-gray-100 p-2">
       <div className="relative w-full h-[600px]">
         <Image
           src="/assets/Images/IndexFondo.jpg"
@@ -50,7 +50,7 @@ export default function Home() {
       <div className="mt-5 p-[5%]">
         <div className="flex justify-between items-center gap-5 text-blue-950">
           <div className="w-1/2  p-3 p-lg-5">
-            <h2 className="mb-2">Proyectos</h2>
+            <h2 className="mb-2 font-bold text-2xl">Proyectos</h2>
             <p>
               Como empresa de consultoría, nos enfocamos en ofrecer soluciones
               innovadoras y personalizadas para ayudar a nuestros clientes a
@@ -66,7 +66,7 @@ export default function Home() {
             </button>
           </div>
           <div className="w-1/2 p-3 p-lg-5">
-            <h2 className="mb-2">Adwise University</h2>
+            <h2 className="mb-2 font-bold text-2xl">Adwise University</h2>
             <p>
               Adwise University es un Centro de Formación de Alto Nivel
               Ejecutivo que ofrece una oferta académica enfocada en la

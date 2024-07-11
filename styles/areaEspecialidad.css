@@ -15,20 +15,20 @@
     }
 
 .img-container1 {
-    background-image: url("../images/lerone-pieters-NiGih6G7nlM-unsplash-1.jpg");
+    background-image: url("/assets/Images/lerone-pieters-NiGih6G7nlM-unsplash-1.jpg");
     background-attachment: fixed;
 }
 .img-container2 {
-    background-image: url("../images/img-talent-managment.jpg");
+    background-image: url("/assets/images/img-talent-managment.jpg");
 }
 .img-container3 {
-    background-image: url("../images/img-process-inovation.webp");
+    background-image: url("/assets/images/img-process-inovation.webp");
 }
 .img-container4 {
-    background-image: url("../images/img-Finance-Audit.webp");
+    background-image: url("/assets/images/img-Finance-Audit.webp");
 }
 .img-container5 {
-    background-image: url("../images/Outsourcing.webp");
+    background-image: url("/assets/images/Outsourcing.webp");
 }
 
 

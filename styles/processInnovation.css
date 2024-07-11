@@ -4,17 +4,15 @@
   background-repeat: no-repeat;
   height: 430px;
   font-size: 45px;
-  background-image: url("../images/ContactoFondo.jpg");
+  background-image: url("/assets/Images/ContactoFondo.jpg");
   background-position-y: 50%;
   background-attachment: fixed;
 }
 
-
-.text-header{
-    z-index:2;
+.text-header {
+  z-index: 2;
 }
 
-    .img-container h1 {
-        font-weight: 500;
-    }
-
+.img-container h1 {
+  font-weight: 500;
+}

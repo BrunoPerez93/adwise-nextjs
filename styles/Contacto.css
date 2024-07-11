@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     height: 430px;
     font-size: 45px;
-    background-image: url("../images/ContactoFondo.jpg");
+    background-image: url("/assets/Images/ContactoFondo.jpg");
     background-attachment: fixed;
 }
 .img-container h1{

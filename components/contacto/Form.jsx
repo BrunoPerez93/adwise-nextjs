@@ -1,3 +1,5 @@
+'use client';
+
 import "../../styles/Contacto.css";
 import { useState } from 'react';
 
@@ -20,23 +22,29 @@ const Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const res = await fetch('/api/contact', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    });
-
-    const result = await res.json();
-
-    if (result.success) {
-      setStatus('Message sent successfully!');
-    } else {
+  
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      const result = await res.json();
+  
+      if (res.ok && result.success) {
+        setStatus('Message sent successfully!');
+      } else {
+        setStatus('Failed to send message.');
+      }
+    } catch (error) {
+      console.error('Error submitting form: ', error);
       setStatus('Failed to send message.');
     }
   };
+  
 
   return (
     <div className="container">

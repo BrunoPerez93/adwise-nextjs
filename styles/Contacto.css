@@ -27,5 +27,6 @@
 .button-adwise{
     background-color:#1d3562;
     padding:21px;
-    border:none
+    border:none;
+    color: white;
 }

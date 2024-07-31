@@ -22,7 +22,7 @@ const Nav = () => {
     <nav className="flex justify-between items-center w-full mb-5 pt-3 app">
       <Link href="/" className="flex gap-2 flex-center">
         <Image
-          src="/assets/Images/LogoAdwiseNav.png"
+          src="/assets/Images/logoAdwiseNav.png"
           alt="logo"
           width={200}
           height={100}
